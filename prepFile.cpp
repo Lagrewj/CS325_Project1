@@ -19,7 +19,7 @@ Description: Preping files for algorithms.
 /******************************************************************************************************
 Function: void outputResult2File(std::ifstream& ioStream, std::ofstream& saveto, std::string filename);
 
-Description: output results to file. 
+Description: output numOfCoins to file. 
 
 Parameters: std::ifstream& ioStream, std::ofstream& saveto, std::string filename
 

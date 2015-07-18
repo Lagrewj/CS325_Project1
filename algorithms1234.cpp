@@ -8,7 +8,7 @@ Description: In this file are the 4 max subarray algorithms
 
 Input: Temporary file  
 
-Output: Results will be outputted to file
+Output: numOfCoins will be outputted to file
 ******************************************************************************************************/
 
 #include <iostream>
@@ -299,7 +299,7 @@ double algorithm2(std::ofstream& outputStream, std::string fileName, const std::
     stop = clock();//end run time                     
     runTime = ((double)(stop - start) / CLOCKS_PER_SEC);
     arraySize = array.size();
-    //Display the results from Algorithm 2 to MSS_Results.txt
+    //Display the numOfCoins from Algorithm 2 to MSS_numOfCoins.txt
     maximumSumOut(currentMaxSum, startMax, endMax, arraySize, outputStream, array, 2);
     outputStream.close();
     return runTime;
@@ -394,7 +394,7 @@ double algorithm4(std::ofstream& outputStream, std::string fileName, const std::
     stop = clock();                     
     runTime = ((double)(stop - start) / CLOCKS_PER_SEC);
     arraySize = array.size();
-    //Outputting results to file
+    //Outputting numOfCoins to file
     maximumSumOut(currentMaxSum, startMax, endMax, arraySize, outputStream, array, 4);
     outputStream.close();
     return runTime;

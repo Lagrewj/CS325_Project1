@@ -29,7 +29,7 @@ int main()
     std::fstream f_tempStream;//temp stream
     char tempFile2[] = "temp2.txt";//temp file 2
     std::fstream f_tempStream2;//temp stream 2
-    char outputFile[] = "MSS_Results.txt";//Output file 
+    char outputFile[] = "MSS_numOfCoins.txt";//Output file 
     std::ofstream saveoutputStream;//output stream
 
     fileOpens(if_inputStream, inputFile);//Checking that input file is opened 
@@ -81,7 +81,7 @@ int main()
 			 algorithm4(saveoutputStream, outputFile, relay); //algorithm 4
 			 relay.clear();//clearing vector
 		  }
-		  std::cout << "Results outputted in MSS_Results.txt " << std::endl;
+		  std::cout << "numOfCoins outputted in MSS_numOfCoins.txt " << std::endl;
 		  totalTime = 0;
 		  arrayCount = 0;
 		  break;

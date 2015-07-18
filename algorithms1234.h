@@ -7,7 +7,7 @@ Date: 7/6/2015
 Description: Maximum subarray algorithms
 
 Input: Temporary file
-Output: Outputs results to output file.
+Output: Outputs numOfCoins to output file.
 ******************************************************************************************************/
 
 #ifndef ALGORITHMS_H

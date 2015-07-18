@@ -7,8 +7,8 @@ Date: 7/6/2015
 Description: Preparing files for algorithms
 ******************************************************************************************************/
 
-#ifndef FILE_ACTION_H
-#define FILE_ACTION_H
+#ifndef PREP_FILE_H
+#define PREP_FILE_H
 
 void outputResult2File(std::ifstream& ifStream, std::ofstream& saveto, std::string filename);
 void removeSymbols(std::ifstream& inputStream, std::fstream& tempStream);
